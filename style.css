@@ -5,7 +5,7 @@
 body {
   font-family: 'futura', sans-serif;
   background-color: #fafafa;
-  color: #fdfdfd;
+  color: #FFB6C1;
   margin: 0;
 }
 
@@ -59,7 +59,7 @@ div {
 }
 
 #home h1 {
-  font-size: 8em;
+  font-size: 9em;
   margin: 16px;
 }
 
@@ -72,6 +72,10 @@ div {
   text-align: center;
   padding-top: 128px;
   padding-bottom: 64px;
+}
+#home .hero-text-container h3 {
+  font-size: 5em
+
 }
 
 .slideshow {
@@ -206,13 +210,15 @@ a {
 
 
 #about {
-  background: url('images/image-1.jpg');
+  background-image: url("images/image-8.jpg");
   background-size: cover;
   background-position: center;
+
 }
 
 #about h3 {
   text-align: center;
+    color: #000000
 }
 
 #background-image {
@@ -224,22 +230,19 @@ a {
 }
 
 .bio {
-  width: 500px;
-  margin-left: 32px;
-  display: inline-block;
+  text-align: center;
+  color: #000000
 }
 
-#about .right {
-  width: 300px;
-  margin-right: 32px;
-  border-radius: 16px;
-  float: right;
-  transition: all .3s ease-in-out;
+#about .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-#about .right:hover {
-  border-radius: 100%;
-  transform: scale(1.2);
+#about .center:hover {
+  border-radius: 0%;
 }
 
 
